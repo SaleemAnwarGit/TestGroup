@@ -1,0 +1,24 @@
+\section{Results}
+Present the results clearly and connect them to the research questions. Tables and figures can be added with the \texttt{table} and \texttt{figure} environments.
+
+\begin{table}[htbp]
+  \caption{Example results table}
+  \label{tab:example-results}
+  \centering
+  \begin{tabular}{lc}
+    \toprule
+    Metric & Value \\
+    \midrule
+    Accuracy & 92.5\% \\
+    F1-score & 0.91 \\
+    Runtime & 1.24\,s \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{figure*}[!t]
+  \centering
+  \includesvg[width=0.88\textwidth]{images/sample-figure}
+  \caption{Two-column sample figure. Use \texttt{figure*} for a figure spanning both columns.}
+  \label{fig:two-column-example}
+\end{figure*}
